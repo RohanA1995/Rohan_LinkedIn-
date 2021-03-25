@@ -1,0 +1,35 @@
+{
+    "name":"LinkedIn HR Post Liker",
+    "version": "1.0.0",
+    "description": "This Extension Will help you to like all the posts and comments automatically and you can see you'r likes activities through the daily activities Section on LinkedIn",
+    "manifest_version": 2,
+    "permissions": [ "tabs", 
+        "notifications",
+        "https://www.linkedin.com/"
+    ],
+
+    "background": {
+        "scripts":["background.js"],
+        "persistent": false
+    },
+
+    "browser_action": 
+    {
+        "default_popup":"login.html"
+    },
+
+    "icons": {
+           "48": "48.png"     
+    },
+    
+   "content_scripts": [
+       {
+           "matches": ["*://*.linkedin.com/*",
+             "*://linkedin.com/*"
+        ],
+           "js": ["content.js"       
+        ]
+       }
+   ]
+
+}
