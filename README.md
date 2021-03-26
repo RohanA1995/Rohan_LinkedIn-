@@ -14,3 +14,4 @@ How to use : 1. Go to chrome browser setting and turn on the developer mode.
              5. The last Step is give there a valuable time in second and tap on the button..  ** must follow the time instruction** 
              6. See the result.
              7. Thank you.  
+Video link :  https://www.loom.com/share/2cd48bb092f840abb10462769a40f3f0
